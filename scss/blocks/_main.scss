@@ -1,0 +1,186 @@
+.main {
+    
+    &__container {
+        background-image: url(./../../images/tel-bg.svg), url(./../../images/main-bg.svg),;
+        background-repeat: no-repeat;
+        background-size: 650px, cover;
+        background-position:  520px -60px,350px, 30%;
+        position: relative;
+        padding-bottom: 270px;
+        padding-top: 100px;
+    }
+    
+    &__text-wrapper {
+        max-width: 447px;
+        width: 100%;
+    }
+    
+    &__heading {
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        color: $black;
+        margin-bottom: 24px;
+    }
+    
+    &__text {
+        font-family: 'PublicSans';
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.28125px;
+        color: $grey;
+        margin-bottom: 32px;
+        max-width: 390px;
+        width: 100%;
+    }
+
+    &__btn {
+        border: none;
+    }
+    
+    .all-btn {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background-image: $mix;
+        padding:  8px;
+        border-radius: 22px;
+        max-width: 165px;
+        width: 100%;
+        text-align: center;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 0.5;
+        }
+    }
+    
+    &__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+    
+        &__container {
+           background-image: none;
+            padding-bottom: 200px;
+            padding-top: 50px;
+        }
+        
+        &__text-wrapper {
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            margin-left: 50px;
+        }
+        
+        &__heading {
+            font-size: 50px;
+            line-height: 56px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-family: 'PublicSans';
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.28125px;
+            color: $grey;
+            margin-bottom: 32px;
+            max-width: 390px;
+            width: 100%;
+        }
+    
+        &__btn {
+            border: none;
+        }
+        
+        .all-btn {
+          display: block;
+          margin-left: 125px;
+        }
+        
+        &__img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 545px) { 
+    .main {
+    
+        &__container {
+            background-image: url(./../../images/tel-bg.svg), url(./../../images/main-bg.svg),;
+            background-repeat: no-repeat;
+            background-size: 330px, 780px;
+            background-position:  50px -125px, -100px -225px;
+            padding-bottom: 150px;
+            padding-top: 350px;
+        }
+        
+        &__text-wrapper {
+            max-width: 447px;
+            width: 100%;
+        }
+        
+        &__heading {
+            font-size: 56px;
+            line-height: 64px;
+            letter-spacing: -1px;
+            color: $black;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-family: 'PublicSans';
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: -0.28125px;
+            color: $grey;
+            margin-bottom: 32px;
+            max-width: 390px;
+            width: 100%;
+        }
+    
+        &__btn {
+            border: none;
+        }
+        
+        .all-btn {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            color: #FFFFFF;
+            background-image: $mix;
+            padding:  8px;
+            border-radius: 22px;
+            max-width: 165px;
+            width: 100%;
+            text-align: center;
+    
+            &:hover {
+                opacity: 0.8;
+            }
+    
+            &:active {
+                opacity: 0.5;
+            }
+        }
+        
+        &__img {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    .main__container {
+        background-image: none;
+    }
+}
